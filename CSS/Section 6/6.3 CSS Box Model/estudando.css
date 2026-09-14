@@ -1,0 +1,8 @@
+.example{
+    border: 30px solid black; /* grossura estilo cor*/
+    border-width: 0px 10px 20px 30px; /* Clockwise top right button left
+    ou 2 valores representando altura e largura*/
+    padding : 20px; /*Espaço entre o elemento e a borda*/
+    margin : 10px; /*Margem de 10px fora da borda, espaçamento entre elementos*/
+     }     /* Clockwise top right button left
+ou 2 valores representando altura e largura*/

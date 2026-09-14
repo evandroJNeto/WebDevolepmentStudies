@@ -1,0 +1,18 @@
+html{
+    background-color : black;
+}
+#kratos{
+    width : 50%;
+    margin-left : 25%;
+}
+#textoKratos{
+    color : white;
+    font-size : 50px;
+    font-weight: 50px;
+    text-align:center;
+    font-family : "Libre Baskerville", serif;
+}
+#kratosimg{
+    width : 100%;
+    border : 10px solid white;
+}
