@@ -6,12 +6,17 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+img {
+  width : 50vh;
+  height : auto;
+}
 .main {
   flex: 1;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
+  border : 10px;
 }
 
 footer {
@@ -19,3 +24,23 @@ footer {
   color: midnightblue;
 }
 
+.blue-creative{
+  color : midnightblue
+}
+
+@media (min-width :576px){
+  #card{
+    width: 100%;
+    display: flex;
+    gap : 1rem;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+} 
